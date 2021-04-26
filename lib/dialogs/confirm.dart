@@ -6,7 +6,7 @@ import "../src/dialog_class.dart";
 
 Future<dynamic> confirm([String message = ""]) async {
   Completer c = Completer();
-  Dialog confirmDialog = Dialog("Confirm", [Text(message)], true);
+  Dialog confirmDialog = Dialog("Confirmer", [Text(message)], true);
 
   confirmDialog
     ..showDialog()
