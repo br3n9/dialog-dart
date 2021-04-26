@@ -17,7 +17,7 @@ class Dialog {
   Dialog(this.title, this.content,
       [this.cancellable = false,
       this.successText = "OK",
-      this.cancelText = "Cancel"]) {
+      this.cancelText = "Annuler"]) {
     if (document.querySelector("body").style.color != "rgb(51, 51, 51)" &&
         querySelectorAll("[href*='packages/dialog/bootstrap.css']").isEmpty) {
       LinkElement link = LinkElement()
